@@ -211,7 +211,22 @@ footer{
         }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {    
+    header .logo{
+        margin: 0;
+        padding: 10px 0;
+
+        /*** FlexBox ***/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        header .logo a{
+            text-align: center;
+            line-height: normal;
+        }
+
     aside{
         flex-direction: column;
     }
@@ -227,10 +242,5 @@ footer{
 
     main article{
         padding: 10px;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 }

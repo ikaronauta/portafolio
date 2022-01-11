@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/app.css">
+        <script src="js/prefixfree.min.js" type="text/javascript"></script>
         <title>JulianDEV</title>
     </head>
     <body>
@@ -14,7 +15,7 @@
             <header>
                 <div class="logo">
                     <img src="img/perfil-nueva.jpeg" alt="JulianTRES" width="150">
-                    <a href="#">Julian<b><em>DEV</em></b></a>
+                    <a href="index.php">Julian<b><em>DEV</em></b></a>
                 </div>
 
                 <nav>
