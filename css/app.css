@@ -221,11 +221,14 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
         header .logo a{
             text-align: center;
             line-height: normal;
         }
+
+    main article{
+        padding: 10px;
+    }
 
     aside{
         flex-direction: column;
@@ -233,14 +236,16 @@ footer{
         aside .title{
             visibility: visible;
         }
+
     footer{
-        justify-content: space-around;
+        justify-content: center;
     }
+        footer .links{
+            flex: 1 1 100%;
+        }
         footer img{
             margin-top: 20px;
         }
 
-    main article{
-        padding: 10px;
-    }
+
 }
