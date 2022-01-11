@@ -13,9 +13,9 @@
     </div>
     <div class="widget">
         <a href="#">
-            <h3>Franchesca Accesorios</h3>
-            <p>Tienda en línea especializada en accesorios para mujer.</p>
-            <img src="img/franchesca.jpeg" alt="franchesca">
+            <h3>IbyX Technology</h3>
+            <p>Comunidad de programadores.</p>
+            <img src="img/ibyx.png" alt="IbyX">
         </a>
     </div>
 
