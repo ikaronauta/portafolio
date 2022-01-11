@@ -234,11 +234,11 @@ footer{
         flex-direction: column;
     }
         aside .title{
-            visibility: space-around;
+            visibility: visible;
         }
 
     footer{
-        justify-content: center;
+        justify-content: space-around;
     }
         footer img{
             margin-top: 20px;
