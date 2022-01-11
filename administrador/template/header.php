@@ -8,6 +8,3 @@
     <title>JulianDEV | Admin</title>
 </head>
 <body>
-    <header class="ap">
-        navbar
-    </header>
