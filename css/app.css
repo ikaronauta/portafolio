@@ -228,4 +228,9 @@ footer{
     main article{
         padding: 10px;
     }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
