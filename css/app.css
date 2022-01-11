@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.principal{
+    background: none;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3px;
+
+    /*** FlexBox ***/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    background: #0a0b0c;
+    width: 100%;
+    padding: 10px 20px 1px 30px;
+    margin-bottom: 5px;
+
+    /*** FlexBox ***/
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centra los elementos verticalmente */
+    flex-flow: row wrap;
+}
+    header .logo{
+        color: #fff;
+        font-size: 40px;
+    }
+        header .logo img{
+            border-radius: 50%;
+            border: 4px double #fff;
+            width: 150px;
+            vertical-align: top;
+        }
+        header .logo a{
+            line-height: 150px;
+            text-decoration: none;
+            color: #fff;
+        }
+    header nav{
+        width: 50%;
+        
+        /*** FlexBox ***/
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+        header nav a{
+            background: red;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+
+            /*** FlexBox hijo ***/
+            flex-grow: 1; /* Permite que los elementos abarquen el mismo espacio hasta que se cubra el 100% del contenedor padre */
+        }
+        header nav a:hover{
+            background: #ff7700;
+        }
+
+main{
+    background: #fff;
+    padding: 20px;
+
+    /*** FlexBox ***/
+    flex: 1;
+}
+    main article{
+        margin-bottom: 20px;
+        padding: 10px 30px 20px 30px;
+        border-bottom: 1px solid #000;
+        line-height: 1.7em;
+    }
+    main article:nth-last-child(1){
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+        main article h1{
+            margin-bottom: 20px;
+        }
+        main article p{
+            text-align: justify;
+        }
+
+aside{
+    background: #cac7bc;
+    padding: 10px;
+
+    /*** FlexBox ***/
+    flex: 0 0 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+    aside .title{
+        text-align: center;
+        font-size: 0.8em;
+        color: #161616;
+    }
+    aside .widget{
+        background: #e6dfd7;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #161616;
+        border-radius: 5px;
+        box-shadow: 3px 3px gray;
+
+        /*** FlexBox ***/
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+        aside .widget a{
+            text-decoration: none;
+        }
+        aside .widget img{
+            width: 100%;
+            max-width: 350px;
+            border-radius: 5px;
+            box-shadow: 3px 3px gray;
+        }
+        aside .widget h3{
+            color: #161616;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        aside .widget p{
+            text-align: center;
+            color: #161616;
+            font-size: 0.8em;
+            margin-bottom: 5px;
+        }
+
+footer{
+    background: #0a0b0c;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+    /*** FlexBox ***/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    footer .links{
+        background: red;
+
+        /*** FlexBox ***/
+        display: flex;
+        flex-wrap: wrap;
+
+        /*** FlexBox hijo***/
+        align-items: center;
+    }
+        footer .links a{
+            flex-grow: 1;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+        }
+        footer .links a:hover{
+            background: #ff7700;
+        }
+        footer .social a{
+            text-decoration: none;
+        }
+            footer .social a img{
+                height: 50px;
+                margin-right: 10px;
+            }
+
+@media screen and (max-width: 900px) {
+    .principal{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+        padding: 0;
+    }
+    header .logo{
+        margin: 20px 0;
+    }
+    header nav{
+        width: 100%;
+    }
+    aside{
+        flex-direction: row;
+        flex: 0;
+    }
+        aside .title{
+            visibility: hidden;
+        }
+        aside .widget{
+            flex-grow: 1;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    aside{
+        flex-direction: column;
+    }
+        aside .title{
+            visibility: visible;
+        }
+    footer{
+        justify-content: space-around;
+    }
+        footer img{
+            margin-top: 20px;
+        }
+
+    main article{
+        padding: 10px;
+    }
+}
