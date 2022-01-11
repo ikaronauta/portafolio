@@ -5,7 +5,7 @@
         <form action="#" method="post">
             <div class="form-group">
                 <label for="email">Correo Electronico</label><br>
-                <input type="email" name="email" id="email" autofocus required>
+                <input type="email" name="email" id="email" autofocus required placeholder="ejemplo@usuario.com">
             </div>
 
             <div class="form-group">
