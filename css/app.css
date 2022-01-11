@@ -185,6 +185,11 @@ footer{
                 margin-right: 10px;
             }
 
+/******* 
+*****
+--- Tablets --- 
+****
+*******/
 @media screen and (max-width: 900px) {
     .principal{
         flex-direction: column;
@@ -209,9 +214,13 @@ footer{
         flex-flow: row nowrap;
         justify-content: center;
     }
-
 }
 
+/******* 
+*****
+--- Smartphones --- 
+****
+*******/
 @media screen and (max-width: 600px) {    
     header .logo{
         margin: 0;
