@@ -10,12 +10,10 @@
 
             <div class="form-group">
                 <label for="password">Contraseña</label><br>
-                <input type="password" name="password" id="password" required>            
+                <input type="password" name="password" id="password" required placeholder="password">            
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Ingresar">
-            </div>
+            <input type="submit" value="Ingresar" class="btn-ingresar">
         </form>
     </div>
 </div>
