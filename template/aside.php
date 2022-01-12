@@ -1,6 +1,6 @@
 <aside>
     <div class="title">
-        Destacados
+        <b>Destacados</b>
     </div>
 
     <div class="cajon-widgets">
