@@ -14,7 +14,7 @@
         <div class="principal">
             <header>
                 <div class="logo">
-                    <img src="img/perfil-nueva.jpeg" alt="JulianTRES" width="150">
+                    <img src="img/julian_ortiz.jpeg" alt="JulianTRES" width="150">
                     <a href="index.php">Julian<b><em>DEV</em></b></a>
                 </div>
 
