@@ -42,7 +42,7 @@ header{
     }
         header .logo img{
             border-radius: 50%;
-            border: 4px double #fff;
+            border: 15px double #fff;
             width: 210px;
             vertical-align: top;
         }
