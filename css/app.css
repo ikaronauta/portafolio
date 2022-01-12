@@ -27,6 +27,7 @@ body{
 }
 
 header{
+    max-height: 300px;
     background: #0a0b0c;
     width: 100%;
     padding: 10px 20px 1px 30px;
@@ -151,6 +152,7 @@ aside{
         }
 
 footer{
+    max-height: 300px;
     background: #0a0b0c;
     width: 100%;
     padding: 20px;
