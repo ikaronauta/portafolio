@@ -164,6 +164,7 @@ footer{
 }
     footer .links{
         width: auto;
+        flex-wrap: nowrap;
     }
         footer .links a{
             padding: 10px;
@@ -243,7 +244,8 @@ footer{
     }
 
     footer{
-        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
         footer img{
             margin-top: 20px;
