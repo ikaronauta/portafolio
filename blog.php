@@ -1,12 +1,3 @@
-<?php include 'template/header.php'; ?>
-
-    <main>
-        <article>
-            <h1>Blog</h1><hr><br>
-        </article>
-    </main>
-
-<?php 
-    include 'template/aside.php';
-    include 'template/footer.php'; 
+<?php
+    require_once 'view/blog.php';
 ?>
