@@ -1,9 +1,9 @@
 <?php include 'template/header.php'; ?>
 
     <main>
-        <section>
-            <h1>Proyectos</h1>
-        </section>
+        <article>
+            <h1>Proyectos</h1><hr><br>
+        </article>
     </main>
 
 <?php 

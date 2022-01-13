@@ -1,3 +1,4 @@
+            <script src="js/app.js"></script>
             <footer>
                 <section class="links">
                     <a href="index.php">Inicio</a>
