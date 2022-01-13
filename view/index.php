@@ -1,5 +1,3 @@
-<?php include 'partials/header.php'; ?>
-
 <main>
     <article>
         <h1>Acerca de mi</h1>
