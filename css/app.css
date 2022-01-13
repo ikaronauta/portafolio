@@ -185,6 +185,12 @@ footer{
                 margin-right: 10px;
             }
 
+/*** Contacto ***/
+main .contacto a{
+    text-decoration: none;
+    color: #212224;
+}
+
 /******* 
 *****
 --- Tablets --- 

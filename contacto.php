@@ -1,10 +1,10 @@
 <?php include 'template/header.php'; ?>
 
     <main>
-        <article>
+        <article class="contacto">
             <h1>Contacto</h1><hr><br>
             <p><b>Correo electrónico: </b><a href="mailto:ortizgalindoj@gmail.com">ortizgalindoj@gmail.com</a></p><br>
-            <p><b>Celular: </b><a href="https://api.whatsapp.com/send?phone=+573503349084"> +57 3503349084</a></p><br><br>
+            <p><b>Celular: </b><a href="https://api.whatsapp.com/send?phone=+573503349084" target="_blank"> +57 3503349084</a></p><br><br>
 
             <h3>Redes Sociales</h3><br>
             <p><a href="https://www.linkedin.com/in/juli%C3%A1n-andres-ortiz-galindo-programador-junior/" target="_blank"><b>LinkedIn: </b><small>https://www.linkedin.com/in/julián-andres-ortiz-galindo-programador-junior/</small></b></a></p><br>
