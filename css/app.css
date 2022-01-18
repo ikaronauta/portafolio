@@ -239,6 +239,7 @@ main .contacto a{
         align-items: center;
     }
         header .logo a{
+            margin-top: 20px;
             text-align: center;
             line-height: normal;
         }
