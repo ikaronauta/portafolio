@@ -76,7 +76,7 @@ header{
             animation-duration: 3s;
         }
         @keyframes logo{
-            from {top: -210px;}
+            from {top: -255px;}
             to {top: 0px;}
         }
         header .logo img{
@@ -328,6 +328,9 @@ main .contacto a{
             margin-top: 15px;
             text-align: center;
             line-height: normal;
+        }
+        header nav a{
+            font-size: 0.8em;
         }
 
     main article{
