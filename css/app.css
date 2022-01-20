@@ -336,9 +336,6 @@ main .contacto a{
     main article{
         padding: 10px;
     }
-        main article .articulo-sobremi{
-            flex-direction: column;
-        }
 
     .cajon-widgets{
         flex-direction: column;
