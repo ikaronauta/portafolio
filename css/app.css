@@ -24,11 +24,14 @@ body{
     flex-flow: row wrap;
 }
 
-header{
+.header-inicio{
     background: #0a0b0c;
     width: 100%;
     padding: 35px 20px 10px 30px;
     margin-bottom: 5px;
+    animation-name: nav;
+    animation-duration: 2s;
+    
 
     /*** FlexBox ***/
     display: flex;
@@ -36,15 +39,56 @@ header{
     align-items: center; /* centra los elementos verticalmente */
     flex-flow: row wrap;
 }
+@keyframes nav {
+    from {background-color: #0a0b0c;}
+    to {background-color: rgb(153, 5, 5);}
+    from {background-color: rgb(153, 5, 5);}
+    to {background-color: #0a0b0c;}
+}
+header{
+    background: #0a0b0c;
+    width: 100%;
+    padding: 35px 20px 10px 30px;
+    margin-bottom: 5px;   
+
+    /*** FlexBox ***/
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centra los elementos verticalmente */
+    flex-flow: row wrap;
+}
+    header .logo-inicio{
+        color: #fff;
+        font-size: 40px;
+        
+    }
     header .logo{
         color: #fff;
         font-size: 40px;
+        
     }
+        header .logo-inicio img{
+            border-radius: 50%;
+            border: 15px double #fff;
+            position: relative;
+            vertical-align: top;
+            animation-name: logo;
+            animation-duration: 3s;
+        }
+        @keyframes logo{
+            from {top: -210px;}
+            to {top: 0px;}
+        }
         header .logo img{
             border-radius: 50%;
             border: 15px double #fff;
-            
+            position: relative;
             vertical-align: top;
+        }
+        header .logo-inicio a{
+            line-height: 210px;
+            text-decoration: none;
+            color: #fff;
         }
         header .logo a{
             line-height: 210px;
@@ -99,6 +143,22 @@ main{
         main article p{
             text-align: justify;
         }
+        main article .articulo-sobremi{            
+            /*** FlexBox ***/
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+            main article .articulo-sobremi .articulo1-sobremi{
+                width: 300px;
+            }
+            main article .articulo-sobremi img{
+                border-radius: 10px;
+            }
+            main article .articulo-sobremi p{
+                padding-left: 20px;
+                line-height: 2.1em;;
+            }
 
 aside{
     background: #b3ad96;
@@ -201,15 +261,27 @@ main .contacto a{
         flex-direction: column;
         height: auto;
     }
+    .header-inicio{
+        flex-direction: column;
+        padding: 0;
+    }
     header{
         flex-direction: column;
         padding: 0;
+    }
+    header .logo-inicio{
+        margin: 20px 0;
     }
     header .logo{
         margin: 20px 0;
     }
     header nav{
         width: 100%;
+    }
+
+    main article .articulo-sobremi p{
+        padding-left: 0;
+        margin-top: 15px;
     }
 
     aside{
@@ -229,15 +301,29 @@ main .contacto a{
 ****
 *******/
 @media screen and (max-width: 600px) {    
-    header .logo{
+    .header-inicio .logo-inicio{
         margin: 0;
-        padding: 40px 0;
+        padding: 40px 0 15px;
 
         /*** FlexBox ***/
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    header .logo{
+        margin: 0;
+        padding: 40px 0 15px;
+
+        /*** FlexBox ***/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .header-inicio .logo-inicio a{
+            margin-top: 15px;
+            text-align: center;
+            line-height: normal;
+        }
         header .logo a{
             margin-top: 15px;
             text-align: center;

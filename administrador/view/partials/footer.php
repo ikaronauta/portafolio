@@ -1,4 +1,4 @@
-<script src="js/app.js"></script>
+            <script src="js/app.js"></script>
             <footer>
                 <section class="links">
                     <a href="index.php">Inicio</a>
@@ -15,7 +15,7 @@
                         <img src="../img/icon/github.png" alt="whatsapp" width="50" height="50">
                     </a>
                     <a href="https://www.instagram.com/julian_antres/" target="_blank">
-                        <img src="../img/icon/instagram.png" alt="instagram" width="50" height="50">
+                        <img src="../estudios/" alt="instagram" width="50" height="50">
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=+573503349084&text=Hola, Nececito mas informacion!" target="_blank">
                         <img src="../img/icon/whatsapp.png" alt="whatsapp" width="50" height="50">
